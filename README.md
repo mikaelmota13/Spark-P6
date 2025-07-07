@@ -16,9 +16,8 @@ A solução é composta por múltiplos serviços orquestrados via Docker Compose
 
 O script `coleta.py` consulta as APIs, salvando as respostas em JSON no diretório `/data_input`. Isso simula a ingestão de dados IoT expostos via HTTP.
 
-O script `spark_streaming.py` lê esses arquivos no Spark Structured Streaming, permitindo transformações como filtros, agregações e análise de anomalias. Os resultados podem ser salvos no data lake em formato Parquet, viabilizando posterior análise ou machine learning.
+O script `spark_streaming.py` lê esses arquivos no Spark Structured Streaming, permitindo transformações como filtros, agregações e análise de anomalias. Os resultados podem ser salvos no data lake em formato Parquet, viabilizando posterior análise ou machine learning. Streaming garante reação imediata a eventos e decisões em tempo quase real, ao contrário do batch. Além disso, conteinerizar o ambiente facilita a replicação do experimento e reduz problemas de infraestrutura
 
-Streaming garante reação imediata a eventos e decisões em tempo quase real, ao contrário do batch. Além disso, conteinerizar o ambiente facilita a replicação do experimento e reduz problemas de infraestrutura.
 ---
 
 ## Estrutura
