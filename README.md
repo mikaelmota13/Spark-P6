@@ -1,4 +1,4 @@
-# Pipeline de Dados em Fluxo Contínuo com Spark, Docker e APIs Externas
+# Pratica Spark 06
 
 ## Descrição 
 
@@ -74,4 +74,8 @@ O script `coleta.py` faz chamadas periódicas a este endpoint e salva as cotaç�
    [http://localhost:9001](http://localhost:9001)
 
 ---
+![Diretorios](https://github.com/user-attachments/assets/81de0243-68e6-4fe6-92a2-02b708deb13c)
 
+![Containers rodando](https://github.com/user-attachments/assets/eb264fb5-0868-4520-b49d-7f317882c7e9)
+
+![Spark local](https://github.com/user-attachments/assets/3b92638d-4682-47a1-8203-5e76c488f8a6)
